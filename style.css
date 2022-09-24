@@ -40,6 +40,37 @@ html,body{
   align-items: center;
   background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(2,0,36,1) 50%);
 }
+.moreaboutme{
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  border-top: 4px solid burlywood;
+  justify-content: flex-end;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 50%, rgba(255,255,255,1) 50%);
+}
+.moreaboutme h1{
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 10px;
+  transition: 1s;
+  margin-right: 30px;
+}
+.moreaboutme h1:hover{
+  transform: translateX(20px);
+  cursor: pointer;
+  transition: 1s;
+}
+.moreaboutme a{
+  color:black;
+  text-decoration:none;
+}
+.aboutimg{
+  width: 400px;
+}
+.console{
+  border-radius: 600px;
+  width: 350px;
+}
 .Profile{
   display: flex;
   align-items: center;
@@ -361,5 +392,11 @@ footer ul li a{
   .conproject img{
     max-width: 260px;
     border-bottom: 1px solid white;
+  }
+  .aboutimg{
+    width: 200px;
+  }
+  .console{
+    width: 200px;
   }
 }
