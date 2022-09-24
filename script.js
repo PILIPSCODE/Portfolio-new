@@ -305,7 +305,7 @@ barba.init({
               Project()
               FollowMe()
               formanim()
-              umur()
+            //   umur()
           },
 
           async once(data){
@@ -314,7 +314,7 @@ barba.init({
               FollowMe()
               Project()
               formanim()
-              umur()
+            //   umur()
           }
       }
   ]
