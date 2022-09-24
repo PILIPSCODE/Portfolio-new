@@ -303,18 +303,18 @@ barba.init({
               mainAnimation();
               home()
               Project()
-              umur()
               FollowMe()
               formanim()
+              umur()
           },
 
           async once(data){
               mainAnimation();
               home()
               FollowMe()
-              umur()
               Project()
               formanim()
+              umur()
           }
       }
   ]
