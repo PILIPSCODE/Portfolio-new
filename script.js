@@ -303,6 +303,7 @@ barba.init({
               mainAnimation();
               home()
               Project()
+              umur()
               FollowMe()
               formanim()
           },
@@ -311,6 +312,7 @@ barba.init({
               mainAnimation();
               home()
               FollowMe()
+              umur()
               Project()
               formanim()
           }
