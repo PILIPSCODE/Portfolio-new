@@ -1,0 +1,17 @@
+tugas-List:https://tugaslist.netlify.app/
+Chat-app:-https://github.com/PILIPSCODE/AyoChat
+         -https://ayochatt.herokuapp.com/
+
+BatuGuntingKertas:-https://github.com/PILIPSCODE/game-batu-gunting-kertas
+                  -https://pilipscode.github.io/game-batu-gunting-kertas/
+
+PortfolioParalax:-https://pilipscode.github.io/webPortofolio
+                 - https://github.com/PILIPSCODE/webPortofolio
+
+WebProfileLinktree:-https://pilipscode.github.io/webprofile/
+                   -https://github.com/PILIPSCODE/webprofile
+firstWeb:-https://github.com/PILIPSCODE/websitegabut
+         -https://pilipscode.github.io/websitegabut/
+
+
+       

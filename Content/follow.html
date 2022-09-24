@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- my css -->
+    <link rel="stylesheet" href="/style.css" />
+    <!-- aos css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=IBM+Plex+Mono:wght@500;600&family=Roboto+Mono:ital,wght@1,100&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/@barba/core"></script>
+    <title>FollowMe</title>
+  </head>
+  <body data-barba="wrapper">
+     <!-- Loading -->
+     <div class="loading-dulu">
+      <h1 id="target"></h1>
+    </div>
+       <!-- End Loading -->
+    <!-- Nav -->
+<section class="nav">
+  <div class="displ">
+    <h1><a class="a" href="index.html"><i class="bi bi-person-circle"></i></a></h1>
+    <h3 class="tiltup">Profile</h3>
+  </div>
+  <div class="displ">
+    <h1> <a class="a" href="skill.html"><i class="bi bi-pie-chart-fill"></i></a></h1>
+    <h3 class="tiltup">Skill</h3>
+  </div>
+  <div class="displ">
+    <h1> <a class="a" href="project.html"><i class="bi bi-folder-fill"></i></a></h1>
+    <h3 class="tiltup">Project</h3>
+  </div>
+  <div class="displ">
+    <h1><a class="a" href="follow.html"><i class="bi bi-instagram"></i></a></h1>
+    <h3 class="tiltup">Follow</h3>
+  </div>
+</section>
+    <!-- transition 1 -->
+    <div class="loading">
+      <div class="page-transition">
+   
+      </div>
+    </div>
+        <!-- Transition 2 -->
+       
+
+    <main data-barba="container" data-barba-namespace="home">
+      <section class="follow">
+        <div class="row pt-5">
+          <div class="col pt-3 text-center text-light">
+            <h1>Follow Me</h1>
+          </div>
+        </div>
+
+        <div class="row text-light mt-5">
+          <div class="col-md-3 text-center col-6 sosmed">
+            
+            <a href="https://github.com/PILIPSCODE"><img src="../Img/github.png" class="followImg"></a>
+            <h3>github</h3>
+          </div>
+          <div class="col-md-3 text-center col-6 sosmed">
+            <a href="https://www.youtube.com/channel/UCHduCsP259BU7Pc4nLuI9GA"><img src="../Img/youtube.png" class="followImg"></a>
+            <h3>Youtube</h3>
+          </div>
+          <div class="col-md-3 text-center col-6 sosmed">
+            <a href="https://www.instagram.com/tryandderorr/"><img src="../Img/instagram.png" class="followImg"></a>
+            
+            <h3>Instagram</h3>
+          </div>
+          <div class="col-md-3 text-center col-6 sosmed">
+           <a href="https://web.facebook.com/pilip.gaming/about">
+            <img src="../Img/facebook.png" class="followImg">
+           </a> 
+           <h3>Facebook</h3>
+          </div>
+        </div>
+           <div class="row mt-5">
+             <div class="col text-light text-center">
+               <h1>ContactMe</h1>
+             </div>
+           </div>
+           <div class="row justify-content-center ">
+            <div class="col-md-6 text-light mt-5 pb-5">
+              <form>
+                <div class="mb-3 me-5 ms-5 formanim">
+                  <label for="exampleInputEmail1" class="form-label">Your Name</label>
+                  <input type="text" class="form-control" id="name" aria-describedby="name">
+                </div>
+                <div class="mb-3 me-5 ms-5 formanim">
+                  <label for="exampleInputEmail1" class="form-label">Your Instagram</label>
+                  <input type="text" class="form-control" id="email" aria-describedby="email">
+                </div>
+                <div class="mb-3 me-5 ms-5 formanim">
+                  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                  <textarea class="form-control" id="Pesan" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary me-5 ms-5 btncontact">Submit</button>
+              </form>
+            </div>
+          </div>
+         
+      </section>  
+
+    </main>
+    <!-- Bootstrap Js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- aos Js -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/TextPlugin.min.js"></script>
+    <!-- barba js -->
+    <!-- My Js -->
+    <script src="/script.js"></script>
+    <script>
+       AOS.init();
+      
+       gsap.registerPlugin(TextPlugin);
+      gsap.to("#target", { duration: 0.5, delay: 0, text: "Hii" });
+      gsap.to("#target", { duration: 0.5, delay: 1, text: "Hello" });
+      gsap.to("#target", { duration: 0.5, delay: 2, text: "Hallo" });
+      gsap.to("#target", { duration: 0.5, delay: 3, text: "Kon nichiwa" });
+      gsap.to("#target", { duration: 0.5, delay: 4.5, text: "Welcome" });
+    </script>
+  
+  </body>
+</html>

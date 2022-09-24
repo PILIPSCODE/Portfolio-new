@@ -1,0 +1,365 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color:rgba(2,0,36,1) ;
+}
+html,body{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.loading-dulu{
+  z-index: 600;
+  position: fixed;
+   background-image: url('./Img/website-background-image-size-psd-vector-photo.jpg');
+   height: 100vh;
+   width: 100vw;
+   color: white;
+   display: flex;
+   background: linear-gradient(90deg, rgba(2,0,36,1) 50%, rgba(255,255,255,1) 50%);
+   transform: translateY(0px);
+   justify-content: center;
+   transition: 2s;
+   align-items: center;
+   font-family: 'IBM Plex Mono', monospace;
+   font-family: 'Titan One', cursive;
+}
+#target{
+  color: salmon;
+}
+.no{
+    transform: translateY(-1000px);
+}
+.Aboutme{
+  height: 100vh;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(2,0,36,1) 50%);
+}
+.Profile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imaage{
+  width: 400px;
+  z-index: 1;
+  transition: 0.5s;
+}
+.click{
+  z-index: 0;
+  font-family: 'Titan One', cursive;
+  color: red;
+}
+.imaage:hover{
+  transform: translateY(-40px);
+  cursor: pointer;
+}
+.myName{
+  transform: translateX(-115px);
+  display: flex;
+}
+  
+.myName h1{
+  font-size: 100px;
+}
+.putih{
+  color: white;
+  margin-left: 15px;
+}
+.tulisan{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+}
+.haha{
+  display: flex;
+  text-align: center;
+  transform: translateX(-80px);
+}
+.wkwk{
+  display: flex;
+  text-align: center;
+  transform: translateX(-88px);
+}
+.nav{
+  position: absolute;
+  display: flex;
+  width: 100vw;
+  background-color: rgba(255,255,255);
+  box-shadow: -2px 22px 32px -5px rgba(0, 0, 0, 0.7);
+  justify-content: space-around;
+  align-items: center;
+  z-index: 500;
+}
+.displ h3{
+    position: absolute;
+    text-align: center;
+    transform: translateY(-20px);
+    pointer-events: none;
+    opacity: 0;
+    margin-right: 30px;
+  
+}
+.asal h2{
+  color:salmon;
+}
+.asal{
+  display: none;
+  word-break: break-all;
+}
+.loading{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 99;
+  pointer-events: none;
+  left: 0;
+}
+.cv{
+  max-width: 200px;
+}
+.page-transition{
+  position:absolute;
+  color: white;
+  z-index: 115;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  pointer-events: none;
+  background-color: dimgray;
+  width: 0%;
+  height: 100%;
+}
+.a{
+  color: black;
+}
+.active{
+  color: darksalmon;
+}
+.displ:hover .tiltup{
+  cursor: pointer;
+  transition: 0.5s;
+  color: red;
+  opacity: 1;
+  transform: translateY(-0px);
+}
+.click{
+  position: absolute;
+}
+.imgg{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+
+.sip{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav .a:hover{
+  color: brown;
+}
+.more-about{
+  z-index: 10;
+  color: white;
+}
+.more-about:hover{
+  transform: translateY(-20px);
+  transition: 1s;
+}
+
+/* skill page */
+.skill{
+  text-align: center;
+  overflow-y: scroll;
+  width: 100vw;
+  color: white;
+  background-color:rgba(2,0,36,1) ;
+}
+.frontend,.Backend,.Tools,.Next-Learn{
+  font-family: 'IBM Plex Mono', monospace;
+  border-bottom: 1px solid white;
+  overflow: hidden;
+}
+.Imgfrontend{
+  width: 100px;
+  /* box-shadow: 10px 10px 29px 0 rgba(177, 168, 168, 0.7); */
+  box-shadow: 21px 12px 43px 9px rgba(177, 168, 168, 0.7);
+}
+.ok{
+  margin-top: 80px;
+}
+.anim h3,.anim h4{
+  opacity: 0;
+  transform: translateY(10px);
+}
+.anim .hoper:hover h3{
+  opacity: 1;
+  cursor: pointer;
+  transition: 1s;
+  transform: translateY(0px);
+}
+.anim .hoper:hover h4{
+  opacity: 1;
+  cursor: pointer;
+  transition: 1s;
+  transform: translateY(0px);
+}
+.anim .hoper:hover img{
+  transform: translateY(-20px);
+  transition: 0.5s;
+  cursor: pointer;
+  transition: 1s;
+}
+
+/* project */
+.Project{
+  width: vw;
+  padding: 0;
+  margin: 0;
+  background-color:rgba(2,0,36,1) ;
+}
+.tulis i {
+  font-size: 25px;
+}
+.info0 h4{
+  margin-right: 6px;
+  text-align: center;
+}
+.tulis .info0{
+  opacity: 0;
+  font-family: 'Paytone One', sans-serif;
+  transform: translateY(10px);
+  position: fixed;
+
+  background-color: white;
+  text-align: start;
+  border: 2px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.bi-eye{
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.conproject img{
+  max-width: 608px;
+  border-bottom: 1px solid white;
+ 
+  margin: 20px 0px 0px 0px;
+}
+.conproject{
+  border: 1px solid white;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 5px;
+  transition: 0.5s;
+  max-width: 610px;
+}
+.conproject:hover .info0{
+  opacity: 1;
+  transition: 1s;
+  cursor: pointer;
+  position: relative;
+  transform: translateY(0px);
+}
+.conproject:hover img{
+  transition: 0.5s;
+}
+.tulis a{
+  color: white;
+}
+.tulis h3{
+  font-family: 'IBM Plex Mono', monospace;
+}
+footer{
+  color: white;
+}
+footer ul li a{
+  color: white;
+
+}
+/* follow */
+
+.follow{
+  background-color:rgba(2,0,36,1) ;
+  height: auto;
+}
+.followImg{
+  width: 100px;
+}
+
+@media(max-width:878px){
+  .Aboutme{
+    display: flex;
+    flex-direction: column;
+  }
+  .imaage{
+    transform: translateX(0px);
+  }
+  .putih{
+    background-color: black;
+  }
+  .haha,.wkwk,.myName{
+  transform: translateX(0px);
+  }
+  .myName h1{
+    font-size: 70px;
+  }
+  .tulisan{
+    margin-top: 20px;
+  }
+}
+
+@media(max-width:450px){
+  .myName h1{
+    font-size: 50px;
+  }
+  .haha h3{
+    font-size: 18px;
+  }
+  .wkwk{
+    font-size: 18px;
+  }
+  .imaage{
+    width: 300px;
+  }
+  .displ h3{
+    font-size: 15px;
+  }
+  .click{
+    font-size: 16px;
+  }
+}
+
+@media(max-width:664px){
+  .conproject img{
+    max-width: 400px;
+    border-bottom: 1px solid white;
+  }
+}
+@media(max-width:480px){
+  .conproject img{
+    max-width: 300px;
+    border-bottom: 1px solid white;
+  }
+}
+@media(max-width:332px){
+  .conproject img{
+    max-width: 260px;
+    border-bottom: 1px solid white;
+  }
+}
