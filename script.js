@@ -197,6 +197,50 @@ home = () => {
         ease:'back'
     });
 }
+aboutme =() => {
+    var timeline = gsap.timeline();
+    timeline.from('.judul',{
+        duration:1,y:30,opacity:0,ease: 'back',delay:1
+    })
+   
+    const animation = document.querySelectorAll('.animation')
+    timeline.from(animation[0],{
+        duration:1,x:-30,opacity:0,ease: 'back'
+    })
+    timeline.from(animation[1],{
+        duration:1,x:30,opacity:0,ease: 'back'
+    })
+    timeline.from(animation[2],{
+        duration:1,x:-30,opacity:0,ease: 'back'
+    })
+    
+   
+
+
+    
+  var d1 = "29"
+  var m1 = "05"
+  var y1 = "2006"
+  var date = new Date();
+  var d2 = date.getDate();
+  var m2 = 1 + date.getMonth();
+  var y2 = date.getFullYear();
+  var month = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+  if (d1 > d2) {
+    d2 = d2 + month[m2 - 1];
+    m2 = m2 - 1;
+  }
+  if (m1 > m2) {
+    m2 = m2 + 12;
+    y2 = y2 - 1;
+  }
+  var y = y2 - y1;
+   
+    gsap.registerPlugin(TextPlugin)
+    gsap.to(".bio", { duration: 6, delay: 2, text: `my full name is Pilipus Kuncoro wismoady.I'm from Indonesia in Central Java.my age is ${y} years old.1 year experience in coding,vocational high school at (Smkn6 Sukoharjo)` });
+    gsap.to(".bio1", { duration: 3, delay: 2, text: `my Hobby is Programing and Playing Games` });
+    gsap.to(".bio2", { duration: 3, delay: 2, text: `my ambition is FullStackDeveloper,` });
+}
 Project =() => {
     var timeline = gsap.timeline();
     const conproject = document.querySelectorAll('.conproject')
@@ -305,6 +349,7 @@ barba.init({
               Project()
               FollowMe()
               formanim()
+              aboutme()
             //   umur()
           },
 
@@ -313,6 +358,7 @@ barba.init({
               home()
               FollowMe()
               Project()
+              aboutme()
               formanim()
             //   umur()
           }
@@ -321,28 +367,8 @@ barba.init({
 });
 
  
-function umur() {
-  var d1 = "29"
-  var m1 = "05"
-  var y1 = "2006"
-  var date = new Date();
-  var d2 = date.getDate();
-  var m2 = 1 + date.getMonth();
-  var y2 = date.getFullYear();
-  var month = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-  if (d1 > d2) {
-    d2 = d2 + month[m2 - 1];
-    m2 = m2 - 1;
-  }
-  if (m1 > m2) {
-    m2 = m2 + 12;
-    y2 = y2 - 1;
-  }
-  var y = y2 - y1;
-  const age = document.querySelector('.age');
-  age.innerHTML = y
-}
-umur()
+
+
 
 
 const aboutpilip = document.querySelector('.aboutpilip')

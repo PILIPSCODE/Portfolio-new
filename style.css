@@ -65,7 +65,8 @@ html,body{
   text-decoration:none;
 }
 .aboutimg{
-  width: 400px;
+  width: 350px;
+  border-radius: 300px;
 }
 .console{
   border-radius: 600px;
