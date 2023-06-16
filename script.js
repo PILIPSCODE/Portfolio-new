@@ -1,11 +1,11 @@
 const loadingDulu = document.querySelector(".loading-dulu");
 const container = document.querySelector(".container");
-setTimeout(() => {
-  loadingDulu.classList.add("no");
-  setTimeout(() => {
-    loadingDulu.style.display = "none";
-  }, 1900);
-}, 5300);
+// setTimeout(() => {
+//   loadingDulu.classList.add("no");
+//   setTimeout(() => {
+// }, 1900);
+// }, 5300);
+loadingDulu.style.display = "none";
 
 
 
